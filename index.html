@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Catch the Falling Objects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Catch the Falling Objects</h1>
+      <div id="scoreboard">
+        Score: <span id="score">0</span> | Max Score:
+        <span id="maxScore">0</span>
+      </div>
+      <canvas id="game" width="500" height="600"> </canvas>
+      <div class="why" id="why">
+        <div class="gameOver-container">
+          <img id="gmmeOverImage" sizes="20" src="candy.png" />
+          <h1 id="whyOver" class="whyOver"></h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/objects.js"></script>
+    <script src="./js/water.js"></script>
+    <script src="./js/fireballs.js"></script>
+    <script src="./js/help.js"></script>
+    <script src="./js/input.js"></script>
+    <script src="js/candy.js"></script>
+    <script src="js/alcoholic.js"></script>
+    <script src="js/juice.js"></script>
+    <script src="js/banana.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
